@@ -1,19 +1,19 @@
-// @ts-nocheck
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 const Home = () =>
-    import ('views/home/Home')
+    import ('../../src/views/home/Home')
 const Profile = () =>
-    import ('views/profile/Profile')
+    import ('../../src/views/profile/Profile')
 const Product = () =>
-    import ('views/product/Product')
+    import ('../../src/views/product/Product')
 const Contact = () =>
-    import ('views/contact/Contact')
+    import ('../../src/views/contact/Contact')
 
 //安装路由
 Vue.use(VueRouter)
-    //创建路由对象
+
+//创建路由对象
 const routes = [{
         path: '',
         redirect: '/home'

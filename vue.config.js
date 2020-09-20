@@ -10,6 +10,7 @@ module.exports = {
             .set('views', path.join(__dirname, 'src/views'))
             .set('assets', path.join(__dirname, 'src/assets'))
             .set('tabbar', path.join(__dirname, 'src/assets/img/tabbar'))
+            .set('router', path.join(__dirname, 'src/router'))
     },
 
 }
